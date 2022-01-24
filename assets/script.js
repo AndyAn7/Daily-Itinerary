@@ -24,7 +24,7 @@ if (hourly < i) {
 var containerClasses =
 `<div class="row" id='hour-${i}'>
 <div class="col-2"></div>
-<div class="hour w-25 p-4 col-1">${hourlyPlan}</div>
+<div class="hour w-35 p-4 col-1">${hourlyPlan}</div>
 <textarea class="description w-50 p-4 col-6 ${ItineraryState} hour-${i}"></textarea>
 <button class="saveBtn w-25 p-4 col-1 fas fa-save fa-2x"></button>
 <div class="col-2"></div>  
@@ -47,3 +47,9 @@ for (var i = 0; i < 24; i++) {
     var hrTask = localStorage.getItem(`hour-${i}`);
     $(`.hour-${i}`).val(hrTask);
 }
+
+// Clear local storage
+$(".clear").on('click',function(){
+    localStorage.clear(); // clean localstorage
+    window.location.reload();  // refresh and reload
+})
