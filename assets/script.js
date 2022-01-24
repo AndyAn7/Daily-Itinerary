@@ -50,6 +50,6 @@ for (var i = 0; i < 24; i++) {
 
 // Clear local storage
 $(".clear").on('click',function(){
-    localStorage.clear(); // clean localstorage
-    window.location.reload();  // refresh and reload
+    localStorage.clear();
+    window.location.reload();
 })
