@@ -8,3 +8,13 @@ for(var i = 6; i < 18; i++) {
     var hourlyPlan = itineraryTime.add(1, 'hour').format('hh:mm A')
     var ItineraryState;
 }
+
+if (hour < i) {
+    ItineraryState = '.past';
+} else if (hour == i) {
+    ItineraryState = '.present';
+} else if (hour > i) {
+    ItineraryState = '.future';
+}
+
+var 
