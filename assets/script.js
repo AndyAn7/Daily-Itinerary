@@ -1,4 +1,5 @@
 $('#currentDay').text(moment().format('MMM Do YYYY'));
+$('#currentTime').text(moment().format('LT'));
 
 var itineraryTime = moment().startOf('day').add(12, 'hour');
 var hourly = moment().format('H');

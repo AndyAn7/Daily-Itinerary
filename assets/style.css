@@ -30,6 +30,10 @@ body {
     border-radius: 15px;
   }
   
+  .fa {
+    margin-bottom: 10px;
+  }
+
   .row {
     white-space: pre-wrap;
     height: 80px;
