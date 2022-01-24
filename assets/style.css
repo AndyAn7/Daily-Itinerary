@@ -72,6 +72,7 @@ body {
     transition: all 0.3s ease-in-out;
   }
   
+  /* Media screen */
   @media only screen and (max-width: 992px) {
     .row {
       height:unset;
