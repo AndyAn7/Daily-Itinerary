@@ -9,6 +9,8 @@ A Bootstrap/jQuery daily planner, where, a user is provided a 24-hour time forma
 - Jquery
 - JS
 
+## [License](License)
+MIT
 
 [deployedApplication](https://andyan7.github.io/Daily-Itinerary/)
 
